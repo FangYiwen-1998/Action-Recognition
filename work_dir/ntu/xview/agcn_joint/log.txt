@@ -1,0 +1,274 @@
+[ Wed Jul 27 22:54:16 2022 ] using warm up, epoch: 0
+[ Wed Jul 27 22:54:16 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 2, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 0, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Wed Jul 27 22:54:16 2022 ] Training epoch: 1
+[ Wed Jul 27 23:14:27 2022 ] 	Mean training loss: 3.5142.
+[ Wed Jul 27 23:14:27 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Wed Jul 27 23:14:27 2022 ] Eval epoch: 1
+[ Wed Jul 27 23:17:46 2022 ] using warm up, epoch: 0
+[ Wed Jul 27 23:17:46 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 2, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 0, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Wed Jul 27 23:17:46 2022 ] Training epoch: 1
+[ Wed Jul 27 23:36:56 2022 ] 	Mean training loss: 3.5142.
+[ Wed Jul 27 23:36:56 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Wed Jul 27 23:36:56 2022 ] Eval epoch: 1
+[ Wed Jul 27 23:39:23 2022 ] 	Mean test loss of 1319 batches: 3.0205118075024457.
+[ Wed Jul 27 23:39:23 2022 ] 	Top1: 14.36%
+[ Wed Jul 27 23:39:23 2022 ] 	Top5: 49.30%
+[ Wed Jul 27 23:39:23 2022 ] Training epoch: 2
+[ Wed Jul 27 23:49:51 2022 ] using warm up, epoch: 0
+[ Wed Jul 27 23:49:51 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 2, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 0, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Wed Jul 27 23:49:51 2022 ] Training epoch: 1
+[ Thu Jul 28 00:09:02 2022 ] 	Mean training loss: 3.5142.
+[ Thu Jul 28 00:09:02 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 00:09:02 2022 ] Eval epoch: 1
+[ Thu Jul 28 07:26:46 2022 ] using warm up, epoch: 0
+[ Thu Jul 28 07:26:46 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 0, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Thu Jul 28 07:26:46 2022 ] Training epoch: 1
+[ Thu Jul 28 07:46:03 2022 ] 	Mean training loss: 3.5142.
+[ Thu Jul 28 07:46:03 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 07:46:03 2022 ] Eval epoch: 1
+[ Thu Jul 28 07:48:30 2022 ] 	Mean test loss of 1319 batches: 3.0205118075024457.
+[ Thu Jul 28 07:48:30 2022 ] 	Top1: 14.36%
+[ Thu Jul 28 07:48:30 2022 ] 	Top5: 49.30%
+[ Thu Jul 28 07:48:30 2022 ] Training epoch: 2
+[ Thu Jul 28 08:18:05 2022 ] using warm up, epoch: 0
+[ Thu Jul 28 08:18:05 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 0, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Thu Jul 28 08:18:05 2022 ] Training epoch: 1
+[ Thu Jul 28 08:37:19 2022 ] 	Mean training loss: 3.5142.
+[ Thu Jul 28 08:37:19 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 08:37:19 2022 ] Eval epoch: 1
+[ Thu Jul 28 08:39:45 2022 ] 	Mean test loss of 1319 batches: 3.0205118075024457.
+[ Thu Jul 28 08:39:45 2022 ] 	Top1: 14.36%
+[ Thu Jul 28 08:39:45 2022 ] 	Top5: 49.30%
+[ Thu Jul 28 08:39:45 2022 ] Training epoch: 2
+[ Thu Jul 28 08:59:12 2022 ] 	Mean training loss: 2.7839.
+[ Thu Jul 28 08:59:12 2022 ] 	Time consumption: [Data]11%, [Network]89%
+[ Thu Jul 28 08:59:12 2022 ] Eval epoch: 2
+[ Thu Jul 28 09:01:38 2022 ] 	Mean test loss of 1319 batches: 2.213176118233965.
+[ Thu Jul 28 09:01:38 2022 ] 	Top1: 33.01%
+[ Thu Jul 28 09:01:38 2022 ] 	Top5: 76.03%
+[ Thu Jul 28 09:01:38 2022 ] Training epoch: 3
+[ Thu Jul 28 09:20:51 2022 ] 	Mean training loss: 2.2050.
+[ Thu Jul 28 09:20:51 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 09:20:51 2022 ] Eval epoch: 3
+[ Thu Jul 28 09:23:17 2022 ] 	Mean test loss of 1319 batches: 1.5105177132897163.
+[ Thu Jul 28 09:23:17 2022 ] 	Top1: 52.80%
+[ Thu Jul 28 09:23:17 2022 ] 	Top5: 89.79%
+[ Thu Jul 28 09:23:17 2022 ] Training epoch: 4
+[ Thu Jul 28 09:42:32 2022 ] 	Mean training loss: 1.7556.
+[ Thu Jul 28 09:42:32 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 09:42:32 2022 ] Eval epoch: 4
+[ Thu Jul 28 09:44:58 2022 ] 	Mean test loss of 1319 batches: 1.266017581564265.
+[ Thu Jul 28 09:44:58 2022 ] 	Top1: 60.03%
+[ Thu Jul 28 09:44:58 2022 ] 	Top5: 91.84%
+[ Thu Jul 28 09:44:58 2022 ] Training epoch: 5
+[ Thu Jul 28 10:04:11 2022 ] 	Mean training loss: 1.5144.
+[ Thu Jul 28 10:04:11 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 10:04:11 2022 ] Eval epoch: 5
+[ Thu Jul 28 10:06:36 2022 ] 	Mean test loss of 1319 batches: 1.130768369377744.
+[ Thu Jul 28 10:06:36 2022 ] 	Top1: 64.74%
+[ Thu Jul 28 10:06:36 2022 ] 	Top5: 94.40%
+[ Thu Jul 28 10:06:36 2022 ] Training epoch: 6
+[ Thu Jul 28 10:25:58 2022 ] 	Mean training loss: 1.3671.
+[ Thu Jul 28 10:25:58 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 10:25:58 2022 ] Eval epoch: 6
+[ Thu Jul 28 10:28:23 2022 ] 	Mean test loss of 1319 batches: 1.0139440046602166.
+[ Thu Jul 28 10:28:23 2022 ] 	Top1: 67.55%
+[ Thu Jul 28 10:28:23 2022 ] 	Top5: 95.05%
+[ Thu Jul 28 10:28:23 2022 ] Training epoch: 7
+[ Thu Jul 28 10:47:53 2022 ] 	Mean training loss: 1.2620.
+[ Thu Jul 28 10:47:53 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 10:47:53 2022 ] Eval epoch: 7
+[ Thu Jul 28 10:50:18 2022 ] 	Mean test loss of 1319 batches: 0.9211632841640209.
+[ Thu Jul 28 10:50:18 2022 ] 	Top1: 69.73%
+[ Thu Jul 28 10:50:18 2022 ] 	Top5: 95.63%
+[ Thu Jul 28 10:50:19 2022 ] Training epoch: 8
+[ Thu Jul 28 11:09:45 2022 ] 	Mean training loss: 1.1831.
+[ Thu Jul 28 11:09:45 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 11:09:45 2022 ] Eval epoch: 8
+[ Thu Jul 28 11:12:11 2022 ] 	Mean test loss of 1319 batches: 0.9130848065058195.
+[ Thu Jul 28 11:12:11 2022 ] 	Top1: 71.70%
+[ Thu Jul 28 11:12:11 2022 ] 	Top5: 96.04%
+[ Thu Jul 28 11:12:11 2022 ] Training epoch: 9
+[ Thu Jul 28 11:31:39 2022 ] 	Mean training loss: 1.1110.
+[ Thu Jul 28 11:31:39 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 11:31:39 2022 ] Eval epoch: 9
+[ Thu Jul 28 11:34:03 2022 ] 	Mean test loss of 1319 batches: 0.8767521254029167.
+[ Thu Jul 28 11:34:03 2022 ] 	Top1: 72.15%
+[ Thu Jul 28 11:34:03 2022 ] 	Top5: 96.25%
+[ Thu Jul 28 11:34:03 2022 ] Training epoch: 10
+[ Thu Jul 28 11:53:33 2022 ] 	Mean training loss: 1.0532.
+[ Thu Jul 28 11:53:33 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 11:53:34 2022 ] Eval epoch: 10
+[ Thu Jul 28 11:55:59 2022 ] 	Mean test loss of 1319 batches: 0.725956490624857.
+[ Thu Jul 28 11:55:59 2022 ] 	Top1: 77.15%
+[ Thu Jul 28 11:55:59 2022 ] 	Top5: 96.73%
+[ Thu Jul 28 11:55:59 2022 ] Training epoch: 11
+[ Thu Jul 28 12:15:36 2022 ] 	Mean training loss: 1.0112.
+[ Thu Jul 28 12:15:36 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 12:15:36 2022 ] Eval epoch: 11
+[ Thu Jul 28 12:18:03 2022 ] 	Mean test loss of 1319 batches: 0.7594002734649421.
+[ Thu Jul 28 12:18:03 2022 ] 	Top1: 76.21%
+[ Thu Jul 28 12:18:03 2022 ] 	Top5: 96.82%
+[ Thu Jul 28 12:18:03 2022 ] Training epoch: 12
+[ Thu Jul 28 12:37:40 2022 ] 	Mean training loss: 0.9848.
+[ Thu Jul 28 12:37:40 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 12:37:41 2022 ] Eval epoch: 12
+[ Thu Jul 28 12:40:07 2022 ] 	Mean test loss of 1319 batches: 0.658791988672176.
+[ Thu Jul 28 12:40:07 2022 ] 	Top1: 79.58%
+[ Thu Jul 28 12:40:07 2022 ] 	Top5: 97.29%
+[ Thu Jul 28 12:40:07 2022 ] Training epoch: 13
+[ Thu Jul 28 12:59:36 2022 ] 	Mean training loss: 0.9321.
+[ Thu Jul 28 12:59:36 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 12:59:36 2022 ] Eval epoch: 13
+[ Thu Jul 28 13:02:02 2022 ] 	Mean test loss of 1319 batches: 0.6035399195463471.
+[ Thu Jul 28 13:02:02 2022 ] 	Top1: 80.67%
+[ Thu Jul 28 13:02:02 2022 ] 	Top5: 97.73%
+[ Thu Jul 28 13:02:02 2022 ] Training epoch: 14
+[ Thu Jul 28 13:21:34 2022 ] 	Mean training loss: 0.9091.
+[ Thu Jul 28 13:21:34 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 13:21:34 2022 ] Eval epoch: 14
+[ Thu Jul 28 13:23:59 2022 ] 	Mean test loss of 1319 batches: 0.5953640123392181.
+[ Thu Jul 28 13:23:59 2022 ] 	Top1: 80.60%
+[ Thu Jul 28 13:23:59 2022 ] 	Top5: 97.88%
+[ Thu Jul 28 13:23:59 2022 ] Training epoch: 15
+[ Thu Jul 28 13:43:21 2022 ] 	Mean training loss: 0.8888.
+[ Thu Jul 28 13:43:21 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 13:43:21 2022 ] Eval epoch: 15
+[ Thu Jul 28 13:45:45 2022 ] 	Mean test loss of 1319 batches: 0.5521820448091856.
+[ Thu Jul 28 13:45:45 2022 ] 	Top1: 82.41%
+[ Thu Jul 28 13:45:45 2022 ] 	Top5: 97.86%
+[ Thu Jul 28 13:45:45 2022 ] Training epoch: 16
+[ Thu Jul 28 14:05:19 2022 ] 	Mean training loss: 0.8700.
+[ Thu Jul 28 14:05:19 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 14:05:19 2022 ] Eval epoch: 16
+[ Thu Jul 28 14:07:44 2022 ] 	Mean test loss of 1319 batches: 0.6469093792981074.
+[ Thu Jul 28 14:07:44 2022 ] 	Top1: 79.08%
+[ Thu Jul 28 14:07:44 2022 ] 	Top5: 97.57%
+[ Thu Jul 28 14:07:44 2022 ] Training epoch: 17
+[ Thu Jul 28 14:27:02 2022 ] 	Mean training loss: 0.8336.
+[ Thu Jul 28 14:27:02 2022 ] 	Time consumption: [Data]10%, [Network]90%
+[ Thu Jul 28 14:27:02 2022 ] Eval epoch: 17
+[ Thu Jul 28 14:29:28 2022 ] 	Mean test loss of 1319 batches: 0.6037432805589493.
+[ Thu Jul 28 14:29:28 2022 ] 	Top1: 80.05%
+[ Thu Jul 28 14:29:28 2022 ] 	Top5: 97.62%
+[ Thu Jul 28 14:29:28 2022 ] Training epoch: 18
+[ Thu Jul 28 19:00:40 2022 ] Load weights from ntu_cv_agcn_joint-16-40936.pt.
+[ Thu Jul 28 19:01:18 2022 ] Load weights from .\runs\ntu_cv_agcn_joint-16-40936.pt.
+[ Thu Jul 28 19:01:19 2022 ] using warm up, epoch: 0
+[ Thu Jul 28 19:01:19 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 2, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': '.\\runs\\ntu_cv_agcn_joint-16-40936.pt', 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 17, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Thu Jul 28 19:01:19 2022 ] Training epoch: 18
+[ Thu Jul 28 19:16:30 2022 ] 	Mean training loss: 0.8248.
+[ Thu Jul 28 19:16:30 2022 ] 	Time consumption: [Data]01%, [Network]99%
+[ Thu Jul 28 19:16:30 2022 ] Eval epoch: 18
+[ Thu Jul 28 19:18:02 2022 ] Load weights from .\runs\ntu_cv_agcn_joint-16-40936.pt.
+[ Thu Jul 28 19:18:03 2022 ] using warm up, epoch: 0
+[ Thu Jul 28 19:18:03 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': '.\\runs\\ntu_cv_agcn_joint-16-40936.pt', 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 17, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Thu Jul 28 19:18:03 2022 ] Training epoch: 18
+[ Thu Jul 28 19:22:50 2022 ] Load weights from ntu_cv_agcn_joint-16-40936.pt.
+[ Thu Jul 28 19:23:04 2022 ] Load weights from .\runs\ntu_cv_agcn_joint-16-40936.pt.
+[ Thu Jul 28 19:23:05 2022 ] using warm up, epoch: 0
+[ Thu Jul 28 19:23:05 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': '.\\runs\\ntu_cv_agcn_joint-16-40936.pt', 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 17, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Thu Jul 28 19:23:05 2022 ] Training epoch: 18
+[ Thu Jul 28 19:38:13 2022 ] 	Mean training loss: 0.8248.
+[ Thu Jul 28 19:38:13 2022 ] 	Time consumption: [Data]01%, [Network]99%
+[ Thu Jul 28 19:38:13 2022 ] Eval epoch: 18
+[ Thu Jul 28 19:40:40 2022 ] 	Mean test loss of 1319 batches: 0.6303582993787739.
+[ Thu Jul 28 19:40:40 2022 ] 	Top1: 79.90%
+[ Thu Jul 28 19:40:40 2022 ] 	Top5: 97.50%
+[ Thu Jul 28 19:40:40 2022 ] Training epoch: 19
+[ Thu Jul 28 19:55:55 2022 ] 	Mean training loss: 0.8009.
+[ Thu Jul 28 19:55:55 2022 ] 	Time consumption: [Data]01%, [Network]99%
+[ Thu Jul 28 19:55:55 2022 ] Eval epoch: 19
+[ Thu Jul 28 19:58:23 2022 ] 	Mean test loss of 1319 batches: 0.5128449295891747.
+[ Thu Jul 28 19:58:23 2022 ] 	Top1: 83.97%
+[ Thu Jul 28 19:58:23 2022 ] 	Top5: 98.01%
+[ Thu Jul 28 19:58:23 2022 ] Training epoch: 20
+[ Thu Jul 28 20:39:45 2022 ] Load weights from .\runs\ntu_cv_agcn_joint-18-9933.pt.
+[ Thu Jul 28 20:39:47 2022 ] using warm up, epoch: 0
+[ Thu Jul 28 20:39:47 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': '.\\runs\\ntu_cv_agcn_joint-18-9933.pt', 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 19, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Thu Jul 28 20:39:47 2022 ] Training epoch: 20
+[ Thu Jul 28 20:55:02 2022 ] 	Mean training loss: 0.7639.
+[ Thu Jul 28 20:55:02 2022 ] 	Time consumption: [Data]01%, [Network]99%
+[ Thu Jul 28 20:55:02 2022 ] Eval epoch: 20
+[ Thu Jul 28 20:57:30 2022 ] 	Mean test loss of 1319 batches: 0.5777076355911238.
+[ Thu Jul 28 20:57:31 2022 ] 	Top1: 81.07%
+[ Thu Jul 28 20:57:31 2022 ] 	Top5: 97.99%
+[ Thu Jul 28 20:57:31 2022 ] Training epoch: 21
+[ Thu Jul 28 20:59:18 2022 ] Load weights from .\runs\ntu_cv_agcn_joint-19-8127.pt.
+[ Thu Jul 28 20:59:19 2022 ] using warm up, epoch: 0
+[ Thu Jul 28 20:59:19 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': '.\\runs\\ntu_cv_agcn_joint-19-8127.pt', 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 20, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Thu Jul 28 20:59:19 2022 ] Training epoch: 21
+[ Thu Jul 28 21:14:31 2022 ] 	Mean training loss: 0.7176.
+[ Thu Jul 28 21:14:31 2022 ] 	Time consumption: [Data]01%, [Network]99%
+[ Thu Jul 28 21:14:31 2022 ] Eval epoch: 21
+[ Thu Jul 28 21:16:57 2022 ] 	Mean test loss of 1319 batches: 0.6091100939313542.
+[ Thu Jul 28 21:16:57 2022 ] 	Top1: 81.32%
+[ Thu Jul 28 21:16:57 2022 ] 	Top5: 97.51%
+[ Thu Jul 28 21:16:57 2022 ] Training epoch: 22
+[ Thu Jul 28 21:23:02 2022 ] Load weights from .\runs\ntu_cv_agcn_joint-20-8428.pt.
+[ Thu Jul 28 21:23:03 2022 ] using warm up, epoch: 0
+[ Thu Jul 28 21:23:03 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': '.\\runs\\ntu_cv_agcn_joint-20-8428.pt', 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 21, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Thu Jul 28 21:23:03 2022 ] Training epoch: 22
+[ Thu Jul 28 21:38:10 2022 ] 	Mean training loss: 0.6832.
+[ Thu Jul 28 21:38:10 2022 ] 	Time consumption: [Data]01%, [Network]99%
+[ Thu Jul 28 21:38:10 2022 ] Eval epoch: 22
+[ Thu Jul 28 21:40:36 2022 ] 	Mean test loss of 1319 batches: 0.7486966257185915.
+[ Thu Jul 28 21:40:36 2022 ] 	Top1: 77.50%
+[ Thu Jul 28 21:40:36 2022 ] 	Top5: 96.71%
+[ Thu Jul 28 21:40:36 2022 ] Training epoch: 23
+[ Thu Jul 28 21:46:53 2022 ] Load weights from .\runs\ntu_cv_agcn_joint-21-8729.pt.
+[ Thu Jul 28 21:46:54 2022 ] using warm up, epoch: 0
+[ Thu Jul 28 21:46:54 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': '.\\runs\\ntu_cv_agcn_joint-21-8729.pt', 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 22, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Thu Jul 28 21:46:54 2022 ] Training epoch: 23
+[ Thu Jul 28 22:01:56 2022 ] 	Mean training loss: 0.6613.
+[ Thu Jul 28 22:01:56 2022 ] 	Time consumption: [Data]01%, [Network]99%
+[ Thu Jul 28 22:01:56 2022 ] Eval epoch: 23
+[ Thu Jul 28 22:03:13 2022 ] Load weights from .\runs\ntu_cv_agcn_joint-22-9030.pt.
+[ Thu Jul 28 22:03:14 2022 ] using warm up, epoch: 0
+[ Thu Jul 28 22:03:14 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': '.\\runs\\ntu_cv_agcn_joint-22-9030.pt', 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 23, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Thu Jul 28 22:03:14 2022 ] Training epoch: 24
+[ Thu Jul 28 22:18:17 2022 ] 	Mean training loss: 0.6357.
+[ Thu Jul 28 22:18:17 2022 ] 	Time consumption: [Data]01%, [Network]99%
+[ Thu Jul 28 22:18:17 2022 ] Eval epoch: 24
+[ Thu Jul 28 22:20:42 2022 ] 	Mean test loss of 1319 batches: 0.6586662594207712.
+[ Thu Jul 28 22:20:42 2022 ] 	Top1: 81.03%
+[ Thu Jul 28 22:20:42 2022 ] 	Top5: 97.15%
+[ Thu Jul 28 22:20:42 2022 ] Training epoch: 25
+[ Fri Jul 29 09:04:00 2022 ] Load weights from .\runs\ntu_cv_agcn_joint-23-9331.pt.
+[ Fri Jul 29 09:04:01 2022 ] using warm up, epoch: 0
+[ Fri Jul 29 09:04:01 2022 ] Parameters:
+{'work_dir': './work_dir/ntu/xview/agcn_joint', 'model_saved_name': './runs/ntu_cv_agcn_joint', 'config': '.\\config\\nturgbd-cross-view\\train_joint.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/ntu/xview/train_data_joint.npy', 'label_path': './data/ntu/xview/train_label.pkl', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/ntu/xview/val_data_joint.npy', 'label_path': './data/ntu/xview/val_label.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 60, 'num_point': 25, 'num_person': 2, 'graph': 'graph.ntu_rgb_d.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': '.\\runs\\ntu_cv_agcn_joint-23-9331.pt', 'ignore_weights': [], 'base_lr': 0.1, 'step': [30, 40], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 8, 'test_batch_size': 8, 'start_epoch': 24, 'num_epoch': 50, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Fri Jul 29 09:04:01 2022 ] Training epoch: 25
+[ Fri Jul 29 09:19:12 2022 ] 	Mean training loss: 0.6296.
+[ Fri Jul 29 09:19:12 2022 ] 	Time consumption: [Data]01%, [Network]99%
+[ Fri Jul 29 09:19:13 2022 ] Training epoch: 26
+[ Fri Jul 29 09:34:24 2022 ] 	Mean training loss: 0.7517.
+[ Fri Jul 29 09:34:24 2022 ] 	Time consumption: [Data]01%, [Network]99%
+[ Fri Jul 29 09:34:25 2022 ] Training epoch: 27

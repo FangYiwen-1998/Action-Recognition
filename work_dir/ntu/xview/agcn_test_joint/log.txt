@@ -1,0 +1,6 @@
+[ Fri Jul 29 08:56:12 2022 ] Load weights from ./runs/ntu_cv_agcn_joint-23-9331.pt.
+[ Fri Jul 29 08:56:13 2022 ] using warm up, epoch: 0
+[ Fri Jul 29 09:42:44 2022 ] Load weights from ./runs/ntu_cv_agcn_joint-49-29400.pt.
+[ Fri Jul 29 09:44:29 2022 ] Load weights from ./runs/ntu_cv_agcn_joint-49-29400.pt.
+[ Fri Jul 29 09:44:31 2022 ] using warm up, epoch: 0
+[ Sat Jul 30 12:11:40 2022 ] Load weights from ./runs/ntu_cv_agcn_joint-49-29400.pt.

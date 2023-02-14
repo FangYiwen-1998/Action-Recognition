@@ -1,0 +1,843 @@
+[ Sun Oct  2 22:37:41 2022 ] using warm up, epoch: 0
+[ Sun Oct  2 22:37:41 2022 ] Parameters:
+{'work_dir': './work_dir/campus/agcn_bone2', 'model_saved_name': './runs/ca_agcn_bone2', 'config': './config/campus/train_bone2.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/campus/train_data_bone2.npy', 'label_path': './data/campus/train_label2.pkl', 'debug': False, 'random_choose': False, 'random_shift': True, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/campus/val_data_bone2.npy', 'label_path': './data/campus/val_label2.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 8, 'num_point': 17, 'num_person': 4, 'graph': 'graph.campus.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [4, 8, 12, 16, 18, 20], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 2, 'test_batch_size': 2, 'start_epoch': 0, 'num_epoch': 20, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Sun Oct  2 22:37:41 2022 ] Training epoch: 1
+[ Sun Oct  2 22:38:57 2022 ] 	Mean training loss: 2.1336.
+[ Sun Oct  2 22:38:57 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:39:16 2022 ] 	Accuracy: 0.8862586605080831,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:39:16 2022 ] 	Mean test loss of 866 batches: 1.8573485893685604.
+[ Sun Oct  2 22:39:16 2022 ] 	Top1: 88.63%
+[ Sun Oct  2 22:39:16 2022 ] 	Top5: 97.81%
+[ Sun Oct  2 22:39:16 2022 ] 	
+[ Sun Oct  2 22:39:16 2022 ] Training epoch: 2
+[ Sun Oct  2 22:40:30 2022 ] 	Mean training loss: 1.7483.
+[ Sun Oct  2 22:40:30 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:40:50 2022 ] 	Accuracy: 0.8579676674364896,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:40:50 2022 ] 	Mean test loss of 866 batches: 1.7558176079055179.
+[ Sun Oct  2 22:40:50 2022 ] 	Top1: 85.80%
+[ Sun Oct  2 22:40:50 2022 ] 	Top5: 97.17%
+[ Sun Oct  2 22:40:50 2022 ] 	
+[ Sun Oct  2 22:40:50 2022 ] Training epoch: 3
+[ Sun Oct  2 22:42:03 2022 ] 	Mean training loss: 1.7510.
+[ Sun Oct  2 22:42:03 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:42:23 2022 ] 	Accuracy: 0.9001154734411085,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:42:23 2022 ] 	Mean test loss of 866 batches: 1.7205278633235508.
+[ Sun Oct  2 22:42:23 2022 ] 	Top1: 90.01%
+[ Sun Oct  2 22:42:23 2022 ] 	Top5: 97.92%
+[ Sun Oct  2 22:42:23 2022 ] 	
+[ Sun Oct  2 22:42:23 2022 ] Training epoch: 4
+[ Sun Oct  2 22:43:37 2022 ] 	Mean training loss: 1.7462.
+[ Sun Oct  2 22:43:37 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:43:57 2022 ] 	Accuracy: 0.9064665127020786,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:43:57 2022 ] 	Mean test loss of 866 batches: 1.710827638453204.
+[ Sun Oct  2 22:43:57 2022 ] 	Top1: 90.65%
+[ Sun Oct  2 22:43:57 2022 ] 	Top5: 98.67%
+[ Sun Oct  2 22:43:57 2022 ] 	
+[ Sun Oct  2 22:43:57 2022 ] Training epoch: 5
+[ Sun Oct  2 22:45:10 2022 ] 	Mean training loss: 1.6751.
+[ Sun Oct  2 22:45:10 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:45:30 2022 ] 	Accuracy: 0.9133949191685913,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:45:30 2022 ] 	Mean test loss of 866 batches: 1.6666471081297611.
+[ Sun Oct  2 22:45:30 2022 ] 	Top1: 91.34%
+[ Sun Oct  2 22:45:30 2022 ] 	Top5: 98.85%
+[ Sun Oct  2 22:45:30 2022 ] 	
+[ Sun Oct  2 22:45:30 2022 ] Training epoch: 6
+[ Sun Oct  2 22:46:44 2022 ] 	Mean training loss: 1.6746.
+[ Sun Oct  2 22:46:44 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:47:04 2022 ] 	Accuracy: 0.9191685912240185,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:47:04 2022 ] 	Mean test loss of 866 batches: 1.6664431609953247.
+[ Sun Oct  2 22:47:04 2022 ] 	Top1: 91.92%
+[ Sun Oct  2 22:47:04 2022 ] 	Top5: 98.21%
+[ Sun Oct  2 22:47:04 2022 ] 	
+[ Sun Oct  2 22:47:04 2022 ] Training epoch: 7
+[ Sun Oct  2 22:48:18 2022 ] 	Mean training loss: 1.6748.
+[ Sun Oct  2 22:48:18 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:48:37 2022 ] 	Accuracy: 0.9191685912240185,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:48:37 2022 ] 	Mean test loss of 866 batches: 1.6712774329455289.
+[ Sun Oct  2 22:48:37 2022 ] 	Top1: 91.92%
+[ Sun Oct  2 22:48:37 2022 ] 	Top5: 98.21%
+[ Sun Oct  2 22:48:37 2022 ] 	
+[ Sun Oct  2 22:48:37 2022 ] Training epoch: 8
+[ Sun Oct  2 22:49:51 2022 ] 	Mean training loss: 1.6741.
+[ Sun Oct  2 22:49:51 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:50:11 2022 ] 	Accuracy: 0.9255196304849884,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:50:11 2022 ] 	Mean test loss of 866 batches: 1.6669200530090729.
+[ Sun Oct  2 22:50:11 2022 ] 	Top1: 92.55%
+[ Sun Oct  2 22:50:11 2022 ] 	Top5: 98.33%
+[ Sun Oct  2 22:50:11 2022 ] 	
+[ Sun Oct  2 22:50:11 2022 ] Training epoch: 9
+[ Sun Oct  2 22:51:25 2022 ] 	Mean training loss: 1.6663.
+[ Sun Oct  2 22:51:25 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:51:44 2022 ] 	Accuracy: 0.9318706697459584,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:51:44 2022 ] 	Mean test loss of 866 batches: 1.6633339644029015.
+[ Sun Oct  2 22:51:44 2022 ] 	Top1: 93.19%
+[ Sun Oct  2 22:51:44 2022 ] 	Top5: 98.38%
+[ Sun Oct  2 22:51:44 2022 ] 	
+[ Sun Oct  2 22:51:44 2022 ] Training epoch: 10
+[ Sun Oct  2 22:53:00 2022 ] 	Mean training loss: 1.6649.
+[ Sun Oct  2 22:53:00 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:53:19 2022 ] 	Accuracy: 0.9393764434180139,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:53:19 2022 ] 	Mean test loss of 866 batches: 1.6623834964860118.
+[ Sun Oct  2 22:53:19 2022 ] 	Top1: 93.94%
+[ Sun Oct  2 22:53:19 2022 ] 	Top5: 98.67%
+[ Sun Oct  2 22:53:19 2022 ] 	
+[ Sun Oct  2 22:53:19 2022 ] Training epoch: 11
+[ Sun Oct  2 22:54:34 2022 ] 	Mean training loss: 1.6644.
+[ Sun Oct  2 22:54:34 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:54:53 2022 ] 	Accuracy: 0.9457274826789839,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:54:53 2022 ] 	Mean test loss of 866 batches: 1.6630451359869978.
+[ Sun Oct  2 22:54:53 2022 ] 	Top1: 94.57%
+[ Sun Oct  2 22:54:53 2022 ] 	Top5: 98.73%
+[ Sun Oct  2 22:54:53 2022 ] 	
+[ Sun Oct  2 22:54:53 2022 ] Training epoch: 12
+[ Sun Oct  2 22:56:08 2022 ] 	Mean training loss: 1.6647.
+[ Sun Oct  2 22:56:08 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:56:28 2022 ] 	Accuracy: 0.9532332563510393,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:56:28 2022 ] 	Mean test loss of 866 batches: 1.668810712823141.
+[ Sun Oct  2 22:56:28 2022 ] 	Top1: 95.32%
+[ Sun Oct  2 22:56:28 2022 ] 	Top5: 98.85%
+[ Sun Oct  2 22:56:28 2022 ] 	
+[ Sun Oct  2 22:56:28 2022 ] Training epoch: 13
+[ Sun Oct  2 22:57:42 2022 ] 	Mean training loss: 1.6631.
+[ Sun Oct  2 22:57:42 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:58:02 2022 ] 	Accuracy: 0.9584295612009238,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:58:02 2022 ] 	Mean test loss of 866 batches: 1.6616730410562652.
+[ Sun Oct  2 22:58:02 2022 ] 	Top1: 95.84%
+[ Sun Oct  2 22:58:02 2022 ] 	Top5: 99.08%
+[ Sun Oct  2 22:58:02 2022 ] 	
+[ Sun Oct  2 22:58:02 2022 ] Training epoch: 14
+[ Sun Oct  2 22:59:17 2022 ] 	Mean training loss: 1.6630.
+[ Sun Oct  2 22:59:17 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 22:59:36 2022 ] 	Accuracy: 0.9584295612009238,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 22:59:36 2022 ] 	Mean test loss of 866 batches: 1.6625227431226823.
+[ Sun Oct  2 22:59:36 2022 ] 	Top1: 95.84%
+[ Sun Oct  2 22:59:36 2022 ] 	Top5: 99.08%
+[ Sun Oct  2 22:59:36 2022 ] 	
+[ Sun Oct  2 22:59:36 2022 ] Training epoch: 15
+[ Sun Oct  2 23:00:51 2022 ] 	Mean training loss: 1.6631.
+[ Sun Oct  2 23:00:51 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 23:01:10 2022 ] 	Accuracy: 0.9653579676674365,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 23:01:10 2022 ] 	Mean test loss of 866 batches: 1.6656599039293603.
+[ Sun Oct  2 23:01:10 2022 ] 	Top1: 96.54%
+[ Sun Oct  2 23:01:10 2022 ] 	Top5: 99.19%
+[ Sun Oct  2 23:01:10 2022 ] 	
+[ Sun Oct  2 23:01:10 2022 ] Training epoch: 16
+[ Sun Oct  2 23:02:24 2022 ] 	Mean training loss: 1.6630.
+[ Sun Oct  2 23:02:24 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 23:02:44 2022 ] 	Accuracy: 0.9728637413394919,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 23:02:44 2022 ] 	Mean test loss of 866 batches: 1.665139771223619.
+[ Sun Oct  2 23:02:44 2022 ] 	Top1: 97.29%
+[ Sun Oct  2 23:02:44 2022 ] 	Top5: 99.42%
+[ Sun Oct  2 23:02:44 2022 ] 	
+[ Sun Oct  2 23:02:44 2022 ] Training epoch: 17
+[ Sun Oct  2 23:03:59 2022 ] 	Mean training loss: 1.6628.
+[ Sun Oct  2 23:03:59 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 23:04:18 2022 ] 	Accuracy: 0.9792147806004619,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 23:04:18 2022 ] 	Mean test loss of 866 batches: 1.6634491710960178.
+[ Sun Oct  2 23:04:18 2022 ] 	Top1: 97.92%
+[ Sun Oct  2 23:04:18 2022 ] 	Top5: 99.60%
+[ Sun Oct  2 23:04:18 2022 ] 	
+[ Sun Oct  2 23:04:18 2022 ] Training epoch: 18
+[ Sun Oct  2 23:05:33 2022 ] 	Mean training loss: 1.6629.
+[ Sun Oct  2 23:05:33 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 23:05:53 2022 ] 	Accuracy: 0.9867205542725174,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 23:05:53 2022 ] 	Mean test loss of 866 batches: 1.6666795243842498.
+[ Sun Oct  2 23:05:53 2022 ] 	Top1: 98.67%
+[ Sun Oct  2 23:05:53 2022 ] 	Top5: 99.77%
+[ Sun Oct  2 23:05:53 2022 ] 	
+[ Sun Oct  2 23:05:53 2022 ] Training epoch: 19
+[ Sun Oct  2 23:07:08 2022 ] 	Mean training loss: 1.6627.
+[ Sun Oct  2 23:07:08 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 23:07:27 2022 ] 	Accuracy: 0.9924942263279446,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 23:07:27 2022 ] 	Mean test loss of 866 batches: 1.6623437652411692.
+[ Sun Oct  2 23:07:27 2022 ] 	Top1: 99.25%
+[ Sun Oct  2 23:07:27 2022 ] 	Top5: 99.83%
+[ Sun Oct  2 23:07:27 2022 ] 	
+[ Sun Oct  2 23:07:27 2022 ] Training epoch: 20
+[ Sun Oct  2 23:08:42 2022 ] 	Mean training loss: 1.6628.
+[ Sun Oct  2 23:08:42 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 23:09:01 2022 ] 	Accuracy: 1.0,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 23:09:01 2022 ] 	Mean test loss of 866 batches: 1.6632162216904531.
+[ Sun Oct  2 23:09:01 2022 ] 	Top1: 100.00%
+[ Sun Oct  2 23:09:01 2022 ] 	Top5: 100.00%
+[ Sun Oct  2 23:09:01 2022 ] 	
+[ Sun Oct  2 23:30:10 2022 ] using warm up, epoch: 0
+[ Sun Oct  2 23:30:10 2022 ] Parameters:
+{'work_dir': './work_dir/campus/agcn_bone2', 'model_saved_name': './runs/ca_agcn_bone2', 'config': './config/campus/train_bone2.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/campus/train_data_bone2.npy', 'label_path': './data/campus/train_label2.pkl', 'debug': False, 'random_choose': False, 'random_shift': True, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/campus/val_data_bone2.npy', 'label_path': './data/campus/val_label2.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 8, 'num_point': 17, 'num_person': 4, 'graph': 'graph.campus.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [4, 8, 12, 16, 18, 20], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 2, 'test_batch_size': 2, 'start_epoch': 0, 'num_epoch': 20, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Sun Oct  2 23:30:10 2022 ] Training epoch: 1
+[ Sun Oct  2 23:32:01 2022 ] 	Mean training loss: 2.1336.
+[ Sun Oct  2 23:32:01 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 23:32:19 2022 ] 	Accuracy: 0.8862586605080831,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 23:32:19 2022 ] 	Mean test loss of 866 batches: 1.8573485893685604.
+[ Sun Oct  2 23:32:19 2022 ] 	Top1: 88.63%
+[ Sun Oct  2 23:32:19 2022 ] 	Top5: 97.81%
+[ Sun Oct  2 23:32:19 2022 ] 	
+[ Sun Oct  2 23:32:19 2022 ] Training epoch: 2
+[ Sun Oct  2 23:33:46 2022 ] 	Mean training loss: 1.7483.
+[ Sun Oct  2 23:33:46 2022 ] 	Time consumption: [Data]03%, [Network]96%
+[ Sun Oct  2 23:34:06 2022 ] 	Accuracy: 0.8579676674364896,  model: ./runs/ca_agcn_bone2
+[ Sun Oct  2 23:34:06 2022 ] 	Mean test loss of 866 batches: 1.7558176079055179.
+[ Sun Oct  2 23:34:06 2022 ] 	Top1: 85.80%
+[ Sun Oct  2 23:34:06 2022 ] 	Top5: 97.17%
+[ Sun Oct  2 23:34:06 2022 ] 	
+[ Sun Oct  2 23:34:06 2022 ] Training epoch: 3
+[ Sun Oct  2 23:36:32 2022 ] 	Mean training loss: 1.7510.
+[ Sun Oct  2 23:36:32 2022 ] 	Time consumption: [Data]39%, [Network]60%
+[ Tue Nov  1 23:11:08 2022 ] using warm up, epoch: 0
+[ Tue Nov  1 23:11:08 2022 ] Parameters:
+{'work_dir': './work_dir/campus/agcn_bone2', 'model_saved_name': './runs/ca_agcn_bone2', 'config': './config/campus/train_bone2.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/campus/train_data_bone2.npy', 'label_path': './data/campus/train_label2.pkl', 'debug': False, 'random_choose': False, 'random_shift': True, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/campus/val_data_bone2.npy', 'label_path': './data/campus/val_label2.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 8, 'num_point': 17, 'num_person': 4, 'graph': 'graph.campus.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [4, 8, 12, 16, 18, 20], 'device': 'cpu', 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 2, 'test_batch_size': 2, 'start_epoch': 0, 'num_epoch': 20, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Tue Nov  1 23:11:08 2022 ] Training epoch: 1
+[ Tue Nov  1 23:13:16 2022 ] 	Mean training loss: 2.2887.
+[ Tue Nov  1 23:13:16 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:13:24 2022 ] 	Accuracy: 0.7523148148148148,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:13:24 2022 ] 	Mean test loss of 216 batches: 1.479258233750308.
+[ Tue Nov  1 23:13:24 2022 ] 	Top1: 75.23%
+[ Tue Nov  1 23:13:24 2022 ] 	Top5: 99.77%
+[ Tue Nov  1 23:13:24 2022 ] 	
+[ Tue Nov  1 23:13:24 2022 ] Training epoch: 2
+[ Tue Nov  1 23:15:09 2022 ] 	Mean training loss: 1.7513.
+[ Tue Nov  1 23:15:09 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:15:14 2022 ] 	Accuracy: 0.7523148148148148,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:15:14 2022 ] 	Mean test loss of 216 batches: 1.6187643243206873.
+[ Tue Nov  1 23:15:14 2022 ] 	Top1: 75.23%
+[ Tue Nov  1 23:15:14 2022 ] 	Top5: 99.77%
+[ Tue Nov  1 23:15:14 2022 ] 	
+[ Tue Nov  1 23:15:14 2022 ] Training epoch: 3
+[ Tue Nov  1 23:16:55 2022 ] 	Mean training loss: 1.7561.
+[ Tue Nov  1 23:16:55 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:17:00 2022 ] 	Accuracy: 0.8032407407407407,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:17:00 2022 ] 	Mean test loss of 216 batches: 1.459086200705281.
+[ Tue Nov  1 23:17:00 2022 ] 	Top1: 80.32%
+[ Tue Nov  1 23:17:00 2022 ] 	Top5: 99.31%
+[ Tue Nov  1 23:17:00 2022 ] 	
+[ Tue Nov  1 23:17:00 2022 ] Training epoch: 4
+[ Tue Nov  1 23:18:39 2022 ] 	Mean training loss: 1.7591.
+[ Tue Nov  1 23:18:39 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:18:45 2022 ] 	Accuracy: 0.7754629629629629,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:18:45 2022 ] 	Mean test loss of 216 batches: 1.4463580005146839.
+[ Tue Nov  1 23:18:45 2022 ] 	Top1: 77.55%
+[ Tue Nov  1 23:18:45 2022 ] 	Top5: 98.61%
+[ Tue Nov  1 23:18:45 2022 ] 	
+[ Tue Nov  1 23:18:45 2022 ] Training epoch: 5
+[ Tue Nov  1 23:20:27 2022 ] 	Mean training loss: 1.6760.
+[ Tue Nov  1 23:20:27 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:20:32 2022 ] 	Accuracy: 0.7754629629629629,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:20:32 2022 ] 	Mean test loss of 216 batches: 1.401430849123884.
+[ Tue Nov  1 23:20:32 2022 ] 	Top1: 77.55%
+[ Tue Nov  1 23:20:32 2022 ] 	Top5: 99.31%
+[ Tue Nov  1 23:20:32 2022 ] 	
+[ Tue Nov  1 23:20:32 2022 ] Training epoch: 6
+[ Tue Nov  1 23:22:13 2022 ] 	Mean training loss: 1.6710.
+[ Tue Nov  1 23:22:13 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:22:19 2022 ] 	Accuracy: 0.7754629629629629,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:22:19 2022 ] 	Mean test loss of 216 batches: 1.4478484800568334.
+[ Tue Nov  1 23:22:19 2022 ] 	Top1: 77.55%
+[ Tue Nov  1 23:22:19 2022 ] 	Top5: 99.31%
+[ Tue Nov  1 23:22:19 2022 ] 	
+[ Tue Nov  1 23:22:19 2022 ] Training epoch: 7
+[ Tue Nov  1 23:24:00 2022 ] 	Mean training loss: 1.6746.
+[ Tue Nov  1 23:24:00 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:24:06 2022 ] 	Accuracy: 0.7754629629629629,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:24:06 2022 ] 	Mean test loss of 216 batches: 1.4086199171013303.
+[ Tue Nov  1 23:24:06 2022 ] 	Top1: 77.55%
+[ Tue Nov  1 23:24:06 2022 ] 	Top5: 99.31%
+[ Tue Nov  1 23:24:06 2022 ] 	
+[ Tue Nov  1 23:24:06 2022 ] Training epoch: 8
+[ Tue Nov  1 23:25:47 2022 ] 	Mean training loss: 1.6729.
+[ Tue Nov  1 23:25:47 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:25:52 2022 ] 	Accuracy: 0.8125,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:25:52 2022 ] 	Mean test loss of 216 batches: 1.378156398181562.
+[ Tue Nov  1 23:25:52 2022 ] 	Top1: 81.25%
+[ Tue Nov  1 23:25:52 2022 ] 	Top5: 99.31%
+[ Tue Nov  1 23:25:52 2022 ] 	
+[ Tue Nov  1 23:25:52 2022 ] Training epoch: 9
+[ Tue Nov  1 23:27:33 2022 ] 	Mean training loss: 1.6653.
+[ Tue Nov  1 23:27:33 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:27:38 2022 ] 	Accuracy: 0.8125,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:27:38 2022 ] 	Mean test loss of 216 batches: 1.395430264097673.
+[ Tue Nov  1 23:27:38 2022 ] 	Top1: 81.25%
+[ Tue Nov  1 23:27:38 2022 ] 	Top5: 99.31%
+[ Tue Nov  1 23:27:38 2022 ] 	
+[ Tue Nov  1 23:27:38 2022 ] Training epoch: 10
+[ Tue Nov  1 23:29:19 2022 ] 	Mean training loss: 1.6636.
+[ Tue Nov  1 23:29:19 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:29:25 2022 ] 	Accuracy: 0.8125,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:29:25 2022 ] 	Mean test loss of 216 batches: 1.3963875075181325.
+[ Tue Nov  1 23:29:25 2022 ] 	Top1: 81.25%
+[ Tue Nov  1 23:29:25 2022 ] 	Top5: 99.31%
+[ Tue Nov  1 23:29:25 2022 ] 	
+[ Tue Nov  1 23:29:25 2022 ] Training epoch: 11
+[ Tue Nov  1 23:31:06 2022 ] 	Mean training loss: 1.6634.
+[ Tue Nov  1 23:31:06 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:31:11 2022 ] 	Accuracy: 0.8125,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:31:11 2022 ] 	Mean test loss of 216 batches: 1.3980369981792238.
+[ Tue Nov  1 23:31:11 2022 ] 	Top1: 81.25%
+[ Tue Nov  1 23:31:11 2022 ] 	Top5: 99.31%
+[ Tue Nov  1 23:31:11 2022 ] 	
+[ Tue Nov  1 23:31:11 2022 ] Training epoch: 12
+[ Tue Nov  1 23:32:52 2022 ] 	Mean training loss: 1.6632.
+[ Tue Nov  1 23:32:52 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:32:57 2022 ] 	Accuracy: 0.8125,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:32:57 2022 ] 	Mean test loss of 216 batches: 1.405990297043765.
+[ Tue Nov  1 23:32:57 2022 ] 	Top1: 81.25%
+[ Tue Nov  1 23:32:57 2022 ] 	Top5: 99.31%
+[ Tue Nov  1 23:32:57 2022 ] 	
+[ Tue Nov  1 23:32:57 2022 ] Training epoch: 13
+[ Tue Nov  1 23:34:40 2022 ] 	Mean training loss: 1.6621.
+[ Tue Nov  1 23:34:40 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:34:45 2022 ] 	Accuracy: 0.8425925925925926,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:34:45 2022 ] 	Mean test loss of 216 batches: 1.4071186278705243.
+[ Tue Nov  1 23:34:45 2022 ] 	Top1: 84.26%
+[ Tue Nov  1 23:34:45 2022 ] 	Top5: 99.54%
+[ Tue Nov  1 23:34:45 2022 ] 	
+[ Tue Nov  1 23:34:45 2022 ] Training epoch: 14
+[ Tue Nov  1 23:36:26 2022 ] 	Mean training loss: 1.6620.
+[ Tue Nov  1 23:36:26 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:36:31 2022 ] 	Accuracy: 0.8425925925925926,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:36:31 2022 ] 	Mean test loss of 216 batches: 1.4111231554437567.
+[ Tue Nov  1 23:36:31 2022 ] 	Top1: 84.26%
+[ Tue Nov  1 23:36:31 2022 ] 	Top5: 99.54%
+[ Tue Nov  1 23:36:31 2022 ] 	
+[ Tue Nov  1 23:36:31 2022 ] Training epoch: 15
+[ Tue Nov  1 23:38:12 2022 ] 	Mean training loss: 1.6619.
+[ Tue Nov  1 23:38:12 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:38:17 2022 ] 	Accuracy: 0.8425925925925926,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:38:17 2022 ] 	Mean test loss of 216 batches: 1.4066317953445293.
+[ Tue Nov  1 23:38:17 2022 ] 	Top1: 84.26%
+[ Tue Nov  1 23:38:17 2022 ] 	Top5: 99.54%
+[ Tue Nov  1 23:38:17 2022 ] 	
+[ Tue Nov  1 23:38:18 2022 ] Training epoch: 16
+[ Tue Nov  1 23:40:09 2022 ] 	Mean training loss: 1.6619.
+[ Tue Nov  1 23:40:09 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:40:15 2022 ] 	Accuracy: 0.8425925925925926,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:40:15 2022 ] 	Mean test loss of 216 batches: 1.410317689732269.
+[ Tue Nov  1 23:40:15 2022 ] 	Top1: 84.26%
+[ Tue Nov  1 23:40:15 2022 ] 	Top5: 99.54%
+[ Tue Nov  1 23:40:15 2022 ] 	
+[ Tue Nov  1 23:40:15 2022 ] Training epoch: 17
+[ Tue Nov  1 23:41:56 2022 ] 	Mean training loss: 1.6617.
+[ Tue Nov  1 23:41:56 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:42:02 2022 ] 	Accuracy: 0.8425925925925926,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:42:02 2022 ] 	Mean test loss of 216 batches: 1.416232521335284.
+[ Tue Nov  1 23:42:02 2022 ] 	Top1: 84.26%
+[ Tue Nov  1 23:42:02 2022 ] 	Top5: 99.54%
+[ Tue Nov  1 23:42:02 2022 ] 	
+[ Tue Nov  1 23:42:02 2022 ] Training epoch: 18
+[ Tue Nov  1 23:43:48 2022 ] 	Mean training loss: 1.6617.
+[ Tue Nov  1 23:43:48 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:43:53 2022 ] 	Accuracy: 0.8773148148148148,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:43:53 2022 ] 	Mean test loss of 216 batches: 1.4236342741383448.
+[ Tue Nov  1 23:43:53 2022 ] 	Top1: 87.73%
+[ Tue Nov  1 23:43:53 2022 ] 	Top5: 99.54%
+[ Tue Nov  1 23:43:53 2022 ] 	
+[ Tue Nov  1 23:43:54 2022 ] Training epoch: 19
+[ Tue Nov  1 23:45:35 2022 ] 	Mean training loss: 1.6617.
+[ Tue Nov  1 23:45:35 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:45:40 2022 ] 	Accuracy: 0.8796296296296297,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:45:40 2022 ] 	Mean test loss of 216 batches: 1.4053229226006403.
+[ Tue Nov  1 23:45:40 2022 ] 	Top1: 87.96%
+[ Tue Nov  1 23:45:40 2022 ] 	Top5: 99.54%
+[ Tue Nov  1 23:45:40 2022 ] 	
+[ Tue Nov  1 23:45:40 2022 ] Training epoch: 20
+[ Tue Nov  1 23:47:24 2022 ] 	Mean training loss: 1.6617.
+[ Tue Nov  1 23:47:24 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Tue Nov  1 23:47:32 2022 ] 	Accuracy: 0.8796296296296297,  model: ./runs/ca_agcn_bone2
+[ Tue Nov  1 23:47:32 2022 ] 	Mean test loss of 216 batches: 1.4079227519256097.
+[ Tue Nov  1 23:47:32 2022 ] 	Top1: 87.96%
+[ Tue Nov  1 23:47:32 2022 ] 	Top5: 99.54%
+[ Tue Nov  1 23:47:32 2022 ] 	
+[ Thu Nov  3 22:23:16 2022 ] using warm up, epoch: 0
+[ Thu Nov  3 22:23:16 2022 ] Parameters:
+{'work_dir': './work_dir/campus/agcn_bone2', 'model_saved_name': './runs/ca_agcn_bone2', 'config': './config/campus/train_bone2.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/campus/train_data_bone2.npy', 'label_path': './data/campus/train_label2.pkl', 'debug': False, 'random_choose': False, 'random_shift': True, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/campus/val_data_bone2.npy', 'label_path': './data/campus/val_label2.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 8, 'num_point': 17, 'num_person': 4, 'graph': 'graph.campus.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [4, 8, 12, 16, 18, 20], 'device': 'cpu', 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 2, 'test_batch_size': 2, 'start_epoch': 0, 'num_epoch': 20, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Thu Nov  3 22:23:16 2022 ] Training epoch: 1
+[ Thu Nov  3 22:25:16 2022 ] 	Mean training loss: 2.2887.
+[ Thu Nov  3 22:25:16 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:25:24 2022 ] 	Accuracy: 0.7523148148148148,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:25:24 2022 ] 	Mean test loss of 216 batches: 1.479258233750308.
+[ Thu Nov  3 22:25:24 2022 ] 	Top1: 75.23%
+[ Thu Nov  3 22:25:24 2022 ] 	Top5: 99.77%
+[ Thu Nov  3 22:25:24 2022 ] 	
+[ Thu Nov  3 22:25:24 2022 ] Training epoch: 2
+[ Thu Nov  3 22:27:23 2022 ] 	Mean training loss: 1.7513.
+[ Thu Nov  3 22:27:23 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:27:30 2022 ] 	Accuracy: 0.7523148148148148,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:27:30 2022 ] 	Mean test loss of 216 batches: 1.6187643243206873.
+[ Thu Nov  3 22:27:31 2022 ] 	Top1: 75.23%
+[ Thu Nov  3 22:27:31 2022 ] 	Top5: 99.77%
+[ Thu Nov  3 22:27:31 2022 ] 	
+[ Thu Nov  3 22:27:31 2022 ] Training epoch: 3
+[ Thu Nov  3 22:29:22 2022 ] 	Mean training loss: 1.7561.
+[ Thu Nov  3 22:29:22 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:29:30 2022 ] 	Accuracy: 0.8032407407407407,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:29:30 2022 ] 	Mean test loss of 216 batches: 1.459086200705281.
+[ Thu Nov  3 22:29:30 2022 ] 	Top1: 80.32%
+[ Thu Nov  3 22:29:30 2022 ] 	Top5: 99.31%
+[ Thu Nov  3 22:29:30 2022 ] 	
+[ Thu Nov  3 22:29:30 2022 ] Training epoch: 4
+[ Thu Nov  3 22:31:21 2022 ] 	Mean training loss: 1.7591.
+[ Thu Nov  3 22:31:21 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:31:28 2022 ] 	Accuracy: 0.7754629629629629,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:31:28 2022 ] 	Mean test loss of 216 batches: 1.4463580005146839.
+[ Thu Nov  3 22:31:28 2022 ] 	Top1: 77.55%
+[ Thu Nov  3 22:31:28 2022 ] 	Top5: 98.61%
+[ Thu Nov  3 22:31:28 2022 ] 	
+[ Thu Nov  3 22:31:28 2022 ] Training epoch: 5
+[ Thu Nov  3 22:33:07 2022 ] 	Mean training loss: 1.6760.
+[ Thu Nov  3 22:33:07 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:33:13 2022 ] 	Accuracy: 0.7754629629629629,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:33:13 2022 ] 	Mean test loss of 216 batches: 1.401430849123884.
+[ Thu Nov  3 22:33:13 2022 ] 	Top1: 77.55%
+[ Thu Nov  3 22:33:13 2022 ] 	Top5: 99.31%
+[ Thu Nov  3 22:33:13 2022 ] 	
+[ Thu Nov  3 22:33:13 2022 ] Training epoch: 6
+[ Thu Nov  3 22:34:54 2022 ] 	Mean training loss: 1.6710.
+[ Thu Nov  3 22:34:54 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:34:59 2022 ] 	Accuracy: 0.7754629629629629,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:34:59 2022 ] 	Mean test loss of 216 batches: 1.4478484800568334.
+[ Thu Nov  3 22:34:59 2022 ] 	Top1: 77.55%
+[ Thu Nov  3 22:34:59 2022 ] 	Top5: 99.31%
+[ Thu Nov  3 22:34:59 2022 ] 	
+[ Thu Nov  3 22:34:59 2022 ] Training epoch: 7
+[ Thu Nov  3 22:36:51 2022 ] 	Mean training loss: 1.6746.
+[ Thu Nov  3 22:36:51 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:36:56 2022 ] 	Accuracy: 0.7754629629629629,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:36:56 2022 ] 	Mean test loss of 216 batches: 1.4086199171013303.
+[ Thu Nov  3 22:36:56 2022 ] 	Top1: 77.55%
+[ Thu Nov  3 22:36:56 2022 ] 	Top5: 99.31%
+[ Thu Nov  3 22:36:56 2022 ] 	
+[ Thu Nov  3 22:36:57 2022 ] Training epoch: 8
+[ Thu Nov  3 22:38:45 2022 ] 	Mean training loss: 1.6729.
+[ Thu Nov  3 22:38:45 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:38:51 2022 ] 	Accuracy: 0.8125,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:38:51 2022 ] 	Mean test loss of 216 batches: 1.378156398181562.
+[ Thu Nov  3 22:38:51 2022 ] 	Top1: 81.25%
+[ Thu Nov  3 22:38:51 2022 ] 	Top5: 99.31%
+[ Thu Nov  3 22:38:51 2022 ] 	
+[ Thu Nov  3 22:38:51 2022 ] Training epoch: 9
+[ Thu Nov  3 22:40:37 2022 ] 	Mean training loss: 1.6653.
+[ Thu Nov  3 22:40:37 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:40:42 2022 ] 	Accuracy: 0.8125,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:40:42 2022 ] 	Mean test loss of 216 batches: 1.395430264097673.
+[ Thu Nov  3 22:40:42 2022 ] 	Top1: 81.25%
+[ Thu Nov  3 22:40:42 2022 ] 	Top5: 99.31%
+[ Thu Nov  3 22:40:42 2022 ] 	
+[ Thu Nov  3 22:40:43 2022 ] Training epoch: 10
+[ Thu Nov  3 22:42:22 2022 ] 	Mean training loss: 1.6636.
+[ Thu Nov  3 22:42:22 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:42:28 2022 ] 	Accuracy: 0.8125,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:42:28 2022 ] 	Mean test loss of 216 batches: 1.3963875075181325.
+[ Thu Nov  3 22:42:28 2022 ] 	Top1: 81.25%
+[ Thu Nov  3 22:42:28 2022 ] 	Top5: 99.31%
+[ Thu Nov  3 22:42:28 2022 ] 	
+[ Thu Nov  3 22:42:28 2022 ] Training epoch: 11
+[ Thu Nov  3 22:44:11 2022 ] 	Mean training loss: 1.6634.
+[ Thu Nov  3 22:44:11 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:44:16 2022 ] 	Accuracy: 0.8125,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:44:16 2022 ] 	Mean test loss of 216 batches: 1.3980369981792238.
+[ Thu Nov  3 22:44:16 2022 ] 	Top1: 81.25%
+[ Thu Nov  3 22:44:16 2022 ] 	Top5: 99.31%
+[ Thu Nov  3 22:44:16 2022 ] 	
+[ Thu Nov  3 22:44:17 2022 ] Training epoch: 12
+[ Thu Nov  3 22:46:00 2022 ] 	Mean training loss: 1.6632.
+[ Thu Nov  3 22:46:00 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:46:06 2022 ] 	Accuracy: 0.8125,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:46:06 2022 ] 	Mean test loss of 216 batches: 1.405990297043765.
+[ Thu Nov  3 22:46:06 2022 ] 	Top1: 81.25%
+[ Thu Nov  3 22:46:06 2022 ] 	Top5: 99.31%
+[ Thu Nov  3 22:46:06 2022 ] 	
+[ Thu Nov  3 22:46:06 2022 ] Training epoch: 13
+[ Thu Nov  3 22:47:47 2022 ] 	Mean training loss: 1.6621.
+[ Thu Nov  3 22:47:47 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:47:52 2022 ] 	Accuracy: 0.8425925925925926,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:47:52 2022 ] 	Mean test loss of 216 batches: 1.4071186278705243.
+[ Thu Nov  3 22:47:52 2022 ] 	Top1: 84.26%
+[ Thu Nov  3 22:47:52 2022 ] 	Top5: 99.54%
+[ Thu Nov  3 22:47:52 2022 ] 	
+[ Thu Nov  3 22:47:52 2022 ] Training epoch: 14
+[ Thu Nov  3 22:49:34 2022 ] 	Mean training loss: 1.6620.
+[ Thu Nov  3 22:49:34 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:49:39 2022 ] 	Accuracy: 0.8425925925925926,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:49:39 2022 ] 	Mean test loss of 216 batches: 1.4111231554437567.
+[ Thu Nov  3 22:49:39 2022 ] 	Top1: 84.26%
+[ Thu Nov  3 22:49:39 2022 ] 	Top5: 99.54%
+[ Thu Nov  3 22:49:39 2022 ] 	
+[ Thu Nov  3 22:49:39 2022 ] Training epoch: 15
+[ Thu Nov  3 22:51:23 2022 ] 	Mean training loss: 1.6619.
+[ Thu Nov  3 22:51:23 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:51:29 2022 ] 	Accuracy: 0.8425925925925926,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:51:29 2022 ] 	Mean test loss of 216 batches: 1.4066317953445293.
+[ Thu Nov  3 22:51:29 2022 ] 	Top1: 84.26%
+[ Thu Nov  3 22:51:29 2022 ] 	Top5: 99.54%
+[ Thu Nov  3 22:51:29 2022 ] 	
+[ Thu Nov  3 22:51:29 2022 ] Training epoch: 16
+[ Thu Nov  3 22:53:13 2022 ] 	Mean training loss: 1.6619.
+[ Thu Nov  3 22:53:13 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:53:19 2022 ] 	Accuracy: 0.8425925925925926,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:53:19 2022 ] 	Mean test loss of 216 batches: 1.410317689732269.
+[ Thu Nov  3 22:53:19 2022 ] 	Top1: 84.26%
+[ Thu Nov  3 22:53:19 2022 ] 	Top5: 99.54%
+[ Thu Nov  3 22:53:19 2022 ] 	
+[ Thu Nov  3 22:53:19 2022 ] Training epoch: 17
+[ Thu Nov  3 22:55:06 2022 ] 	Mean training loss: 1.6617.
+[ Thu Nov  3 22:55:06 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:55:12 2022 ] 	Accuracy: 0.8425925925925926,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:55:12 2022 ] 	Mean test loss of 216 batches: 1.416232521335284.
+[ Thu Nov  3 22:55:12 2022 ] 	Top1: 84.26%
+[ Thu Nov  3 22:55:12 2022 ] 	Top5: 99.54%
+[ Thu Nov  3 22:55:12 2022 ] 	
+[ Thu Nov  3 22:55:12 2022 ] Training epoch: 18
+[ Thu Nov  3 22:57:01 2022 ] 	Mean training loss: 1.6617.
+[ Thu Nov  3 22:57:01 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:57:07 2022 ] 	Accuracy: 0.8773148148148148,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:57:07 2022 ] 	Mean test loss of 216 batches: 1.4236342741383448.
+[ Thu Nov  3 22:57:07 2022 ] 	Top1: 87.73%
+[ Thu Nov  3 22:57:07 2022 ] 	Top5: 99.54%
+[ Thu Nov  3 22:57:07 2022 ] 	
+[ Thu Nov  3 22:57:07 2022 ] Training epoch: 19
+[ Thu Nov  3 22:58:58 2022 ] 	Mean training loss: 1.6617.
+[ Thu Nov  3 22:58:58 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 22:59:04 2022 ] 	Accuracy: 0.8796296296296297,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 22:59:04 2022 ] 	Mean test loss of 216 batches: 1.4053229226006403.
+[ Thu Nov  3 22:59:04 2022 ] 	Top1: 87.96%
+[ Thu Nov  3 22:59:04 2022 ] 	Top5: 99.54%
+[ Thu Nov  3 22:59:04 2022 ] 	
+[ Thu Nov  3 22:59:04 2022 ] Training epoch: 20
+[ Thu Nov  3 23:00:50 2022 ] 	Mean training loss: 1.6617.
+[ Thu Nov  3 23:00:50 2022 ] 	Time consumption: [Data]01%, [Network]98%
+[ Thu Nov  3 23:00:56 2022 ] 	Accuracy: 0.8796296296296297,  model: ./runs/ca_agcn_bone2
+[ Thu Nov  3 23:00:56 2022 ] 	Mean test loss of 216 batches: 1.4079227519256097.
+[ Thu Nov  3 23:00:56 2022 ] 	Top1: 87.96%
+[ Thu Nov  3 23:00:56 2022 ] 	Top5: 99.54%
+[ Thu Nov  3 23:00:56 2022 ] 	
+[ Mon Nov  7 16:35:44 2022 ] using warm up, epoch: 0
+[ Mon Nov  7 16:35:44 2022 ] Parameters:
+{'work_dir': './work_dir/campus/agcn_bone2', 'model_saved_name': './runs/ca_agcn_bone2', 'config': './config/campus/train_bone2.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/campus/train_data_bone2.npy', 'label_path': './data/campus/train_label2.pkl', 'debug': False, 'random_choose': False, 'random_shift': True, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/campus/val_data_bone2.npy', 'label_path': './data/campus/val_label2.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 8, 'num_point': 17, 'num_person': 4, 'graph': 'graph.campus.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [4, 8, 12, 16, 18, 20], 'device': 'cpu', 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 2, 'test_batch_size': 2, 'start_epoch': 0, 'num_epoch': 20, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Mon Nov  7 16:35:44 2022 ] Training epoch: 1
+[ Mon Nov  7 16:37:34 2022 ] 	Mean training loss: 2.0991.
+[ Mon Nov  7 16:37:34 2022 ] 	Time consumption: [Data]04%, [Network]95%
+[ Mon Nov  7 16:37:46 2022 ] 	Accuracy: 0.35648148148148145,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 16:37:46 2022 ] 	Mean test loss of 216 batches: 1.5359453451302316.
+[ Mon Nov  7 16:37:46 2022 ] 	Top1: 35.65%
+[ Mon Nov  7 16:37:46 2022 ] 	Top5: 95.60%
+[ Mon Nov  7 16:37:46 2022 ] 	
+[ Mon Nov  7 16:37:46 2022 ] Training epoch: 2
+[ Mon Nov  7 16:39:39 2022 ] 	Mean training loss: 1.7416.
+[ Mon Nov  7 16:39:39 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 16:39:52 2022 ] 	Accuracy: 0.6944444444444444,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 16:39:52 2022 ] 	Mean test loss of 216 batches: 1.3819005384489342.
+[ Mon Nov  7 16:39:52 2022 ] 	Top1: 69.44%
+[ Mon Nov  7 16:39:52 2022 ] 	Top5: 100.00%
+[ Mon Nov  7 16:39:52 2022 ] 	
+[ Mon Nov  7 16:39:52 2022 ] Training epoch: 3
+[ Mon Nov  7 16:41:51 2022 ] 	Mean training loss: 1.7406.
+[ Mon Nov  7 16:41:51 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 16:42:04 2022 ] 	Accuracy: 0.6944444444444444,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 16:42:04 2022 ] 	Mean test loss of 216 batches: 1.414702333509922.
+[ Mon Nov  7 16:42:04 2022 ] 	Top1: 69.44%
+[ Mon Nov  7 16:42:04 2022 ] 	Top5: 98.61%
+[ Mon Nov  7 16:42:04 2022 ] 	
+[ Mon Nov  7 16:42:04 2022 ] Training epoch: 4
+[ Mon Nov  7 16:43:52 2022 ] 	Mean training loss: 1.7441.
+[ Mon Nov  7 16:43:52 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 16:44:04 2022 ] 	Accuracy: 0.75,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 16:44:04 2022 ] 	Mean test loss of 216 batches: 1.5274879027295996.
+[ Mon Nov  7 16:44:04 2022 ] 	Top1: 75.00%
+[ Mon Nov  7 16:44:04 2022 ] 	Top5: 99.31%
+[ Mon Nov  7 16:44:04 2022 ] 	
+[ Mon Nov  7 16:44:04 2022 ] Training epoch: 5
+[ Mon Nov  7 16:45:42 2022 ] 	Mean training loss: 1.6739.
+[ Mon Nov  7 16:45:42 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 16:45:53 2022 ] 	Accuracy: 0.7430555555555556,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 16:45:53 2022 ] 	Mean test loss of 216 batches: 1.420171754779639.
+[ Mon Nov  7 16:45:53 2022 ] 	Top1: 74.31%
+[ Mon Nov  7 16:45:53 2022 ] 	Top5: 98.84%
+[ Mon Nov  7 16:45:53 2022 ] 	
+[ Mon Nov  7 16:45:53 2022 ] Training epoch: 6
+[ Mon Nov  7 16:47:29 2022 ] 	Mean training loss: 1.6707.
+[ Mon Nov  7 16:47:29 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 16:47:40 2022 ] 	Accuracy: 0.7129629629629629,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 16:47:40 2022 ] 	Mean test loss of 216 batches: 1.4212158628635936.
+[ Mon Nov  7 16:47:40 2022 ] 	Top1: 71.30%
+[ Mon Nov  7 16:47:40 2022 ] 	Top5: 98.84%
+[ Mon Nov  7 16:47:40 2022 ] 	
+[ Mon Nov  7 16:47:40 2022 ] Training epoch: 7
+[ Mon Nov  7 16:49:18 2022 ] 	Mean training loss: 1.6700.
+[ Mon Nov  7 16:49:18 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 16:49:30 2022 ] 	Accuracy: 0.7129629629629629,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 16:49:30 2022 ] 	Mean test loss of 216 batches: 1.385632307993041.
+[ Mon Nov  7 16:49:30 2022 ] 	Top1: 71.30%
+[ Mon Nov  7 16:49:30 2022 ] 	Top5: 98.84%
+[ Mon Nov  7 16:49:30 2022 ] 	
+[ Mon Nov  7 16:49:30 2022 ] Training epoch: 8
+[ Mon Nov  7 16:51:08 2022 ] 	Mean training loss: 1.6672.
+[ Mon Nov  7 16:51:08 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 16:51:20 2022 ] 	Accuracy: 0.7268518518518519,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 16:51:20 2022 ] 	Mean test loss of 216 batches: 1.3687731993419152.
+[ Mon Nov  7 16:51:20 2022 ] 	Top1: 72.69%
+[ Mon Nov  7 16:51:20 2022 ] 	Top5: 98.84%
+[ Mon Nov  7 16:51:20 2022 ] 	
+[ Mon Nov  7 16:51:20 2022 ] Training epoch: 9
+[ Mon Nov  7 16:52:58 2022 ] 	Mean training loss: 1.6606.
+[ Mon Nov  7 16:52:58 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 16:53:10 2022 ] 	Accuracy: 0.7523148148148148,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 16:53:10 2022 ] 	Mean test loss of 216 batches: 1.398941942387157.
+[ Mon Nov  7 16:53:10 2022 ] 	Top1: 75.23%
+[ Mon Nov  7 16:53:10 2022 ] 	Top5: 99.07%
+[ Mon Nov  7 16:53:10 2022 ] 	
+[ Mon Nov  7 16:53:10 2022 ] Training epoch: 10
+[ Mon Nov  7 16:54:47 2022 ] 	Mean training loss: 1.6570.
+[ Mon Nov  7 16:54:47 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 16:54:59 2022 ] 	Accuracy: 0.7523148148148148,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 16:54:59 2022 ] 	Mean test loss of 216 batches: 1.3971076243453555.
+[ Mon Nov  7 16:54:59 2022 ] 	Top1: 75.23%
+[ Mon Nov  7 16:54:59 2022 ] 	Top5: 99.07%
+[ Mon Nov  7 16:54:59 2022 ] 	
+[ Mon Nov  7 16:54:59 2022 ] Training epoch: 11
+[ Mon Nov  7 16:56:37 2022 ] 	Mean training loss: 1.6578.
+[ Mon Nov  7 16:56:37 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 16:56:49 2022 ] 	Accuracy: 0.7523148148148148,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 16:56:49 2022 ] 	Mean test loss of 216 batches: 1.4059313022428088.
+[ Mon Nov  7 16:56:49 2022 ] 	Top1: 75.23%
+[ Mon Nov  7 16:56:49 2022 ] 	Top5: 99.07%
+[ Mon Nov  7 16:56:49 2022 ] 	
+[ Mon Nov  7 16:56:49 2022 ] Training epoch: 12
+[ Mon Nov  7 16:58:27 2022 ] 	Mean training loss: 1.6566.
+[ Mon Nov  7 16:58:27 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 16:58:39 2022 ] 	Accuracy: 0.7523148148148148,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 16:58:39 2022 ] 	Mean test loss of 216 batches: 1.4146377212471433.
+[ Mon Nov  7 16:58:39 2022 ] 	Top1: 75.23%
+[ Mon Nov  7 16:58:39 2022 ] 	Top5: 98.84%
+[ Mon Nov  7 16:58:39 2022 ] 	
+[ Mon Nov  7 16:58:39 2022 ] Training epoch: 13
+[ Mon Nov  7 17:00:15 2022 ] 	Mean training loss: 1.6527.
+[ Mon Nov  7 17:00:15 2022 ] 	Time consumption: [Data]04%, [Network]95%
+[ Mon Nov  7 17:00:27 2022 ] 	Accuracy: 0.7754629629629629,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 17:00:27 2022 ] 	Mean test loss of 216 batches: 1.4028469362744578.
+[ Mon Nov  7 17:00:27 2022 ] 	Top1: 77.55%
+[ Mon Nov  7 17:00:27 2022 ] 	Top5: 99.31%
+[ Mon Nov  7 17:00:27 2022 ] 	
+[ Mon Nov  7 17:00:27 2022 ] Training epoch: 14
+[ Mon Nov  7 17:02:02 2022 ] 	Mean training loss: 1.6541.
+[ Mon Nov  7 17:02:02 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 17:02:13 2022 ] 	Accuracy: 0.7754629629629629,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 17:02:13 2022 ] 	Mean test loss of 216 batches: 1.4029415779643588.
+[ Mon Nov  7 17:02:13 2022 ] 	Top1: 77.55%
+[ Mon Nov  7 17:02:13 2022 ] 	Top5: 99.31%
+[ Mon Nov  7 17:02:13 2022 ] 	
+[ Mon Nov  7 17:02:13 2022 ] Training epoch: 15
+[ Mon Nov  7 17:03:48 2022 ] 	Mean training loss: 1.6526.
+[ Mon Nov  7 17:03:48 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 17:04:00 2022 ] 	Accuracy: 0.7754629629629629,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 17:04:00 2022 ] 	Mean test loss of 216 batches: 1.4030465378805443.
+[ Mon Nov  7 17:04:00 2022 ] 	Top1: 77.55%
+[ Mon Nov  7 17:04:00 2022 ] 	Top5: 99.31%
+[ Mon Nov  7 17:04:00 2022 ] 	
+[ Mon Nov  7 17:04:00 2022 ] Training epoch: 16
+[ Mon Nov  7 17:05:36 2022 ] 	Mean training loss: 1.6552.
+[ Mon Nov  7 17:05:36 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 17:05:48 2022 ] 	Accuracy: 0.7754629629629629,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 17:05:48 2022 ] 	Mean test loss of 216 batches: 1.413515071074168.
+[ Mon Nov  7 17:05:48 2022 ] 	Top1: 77.55%
+[ Mon Nov  7 17:05:48 2022 ] 	Top5: 99.31%
+[ Mon Nov  7 17:05:48 2022 ] 	
+[ Mon Nov  7 17:05:48 2022 ] Training epoch: 17
+[ Mon Nov  7 17:07:23 2022 ] 	Mean training loss: 1.6567.
+[ Mon Nov  7 17:07:23 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 17:07:35 2022 ] 	Accuracy: 0.7754629629629629,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 17:07:35 2022 ] 	Mean test loss of 216 batches: 1.408077473717707.
+[ Mon Nov  7 17:07:35 2022 ] 	Top1: 77.55%
+[ Mon Nov  7 17:07:35 2022 ] 	Top5: 99.31%
+[ Mon Nov  7 17:07:35 2022 ] 	
+[ Mon Nov  7 17:07:35 2022 ] Training epoch: 18
+[ Mon Nov  7 17:09:10 2022 ] 	Mean training loss: 1.6562.
+[ Mon Nov  7 17:09:10 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 17:09:22 2022 ] 	Accuracy: 0.8125,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 17:09:22 2022 ] 	Mean test loss of 216 batches: 1.4133720395189744.
+[ Mon Nov  7 17:09:22 2022 ] 	Top1: 81.25%
+[ Mon Nov  7 17:09:22 2022 ] 	Top5: 99.31%
+[ Mon Nov  7 17:09:22 2022 ] 	
+[ Mon Nov  7 17:09:22 2022 ] Training epoch: 19
+[ Mon Nov  7 17:10:58 2022 ] 	Mean training loss: 1.6558.
+[ Mon Nov  7 17:10:58 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 17:11:10 2022 ] 	Accuracy: 0.8125,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 17:11:10 2022 ] 	Mean test loss of 216 batches: 1.4069996156074382.
+[ Mon Nov  7 17:11:10 2022 ] 	Top1: 81.25%
+[ Mon Nov  7 17:11:10 2022 ] 	Top5: 99.31%
+[ Mon Nov  7 17:11:10 2022 ] 	
+[ Mon Nov  7 17:11:10 2022 ] Training epoch: 20
+[ Mon Nov  7 17:12:45 2022 ] 	Mean training loss: 1.6559.
+[ Mon Nov  7 17:12:45 2022 ] 	Time consumption: [Data]04%, [Network]96%
+[ Mon Nov  7 17:12:59 2022 ] 	Accuracy: 0.8125,  model: ./runs/ca_agcn_bone2
+[ Mon Nov  7 17:12:59 2022 ] 	Mean test loss of 216 batches: 1.4088021489205185.
+[ Mon Nov  7 17:12:59 2022 ] 	Top1: 81.25%
+[ Mon Nov  7 17:12:59 2022 ] 	Top5: 99.31%
+[ Mon Nov  7 17:12:59 2022 ] 	
+[ Sun Nov 20 14:11:34 2022 ] using warm up, epoch: 0
+[ Sun Nov 20 14:11:34 2022 ] Parameters:
+{'work_dir': './work_dir/campus/agcn_bone2', 'model_saved_name': './runs/ca_agcn_bone2', 'config': './config/campus/train_bone2.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 1, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder.Feeder', 'num_worker': 1, 'train_feeder_args': {'data_path': './data/campus/train_data_bone2.npy', 'label_path': './data/campus/train_label2.pkl', 'debug': False, 'random_choose': False, 'random_shift': True, 'random_move': False, 'window_size': -1, 'normalization': False}, 'test_feeder_args': {'data_path': './data/campus/val_data_bone2.npy', 'label_path': './data/campus/val_label2.pkl'}, 'model': 'model.agcn.Model', 'model_args': {'num_class': 8, 'num_point': 17, 'num_person': 4, 'graph': 'graph.campus.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [4, 8, 12, 16, 18, 20], 'device': 'cpu', 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 2, 'test_batch_size': 2, 'start_epoch': 0, 'num_epoch': 20, 'weight_decay': 0.0001, 'only_train_part': False, 'only_train_epoch': 0, 'warm_up_epoch': 0}
+
+[ Sun Nov 20 14:11:34 2022 ] Training epoch: 1
+[ Sun Nov 20 14:12:26 2022 ] 	Mean training loss: 2.3090.
+[ Sun Nov 20 14:12:26 2022 ] 	Time consumption: [Data]06%, [Network]93%
+[ Sun Nov 20 14:12:31 2022 ] 	Accuracy: 0.39655172413793105,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:12:31 2022 ] 	Mean test loss of 174 batches: 1.4436272978782654.
+[ Sun Nov 20 14:12:31 2022 ] 	Top1: 39.66%
+[ Sun Nov 20 14:12:31 2022 ] 	Top5: 99.14%
+[ Sun Nov 20 14:12:31 2022 ] 	
+[ Sun Nov 20 14:12:31 2022 ] Training epoch: 2
+[ Sun Nov 20 14:13:20 2022 ] 	Mean training loss: 1.8012.
+[ Sun Nov 20 14:13:20 2022 ] 	Time consumption: [Data]05%, [Network]94%
+[ Sun Nov 20 14:13:25 2022 ] 	Accuracy: 0.7385057471264368,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:13:25 2022 ] 	Mean test loss of 174 batches: 1.5098216889918536.
+[ Sun Nov 20 14:13:25 2022 ] 	Top1: 73.85%
+[ Sun Nov 20 14:13:25 2022 ] 	Top5: 97.99%
+[ Sun Nov 20 14:13:25 2022 ] 	
+[ Sun Nov 20 14:13:25 2022 ] Training epoch: 3
+[ Sun Nov 20 14:14:15 2022 ] 	Mean training loss: 1.8125.
+[ Sun Nov 20 14:14:15 2022 ] 	Time consumption: [Data]05%, [Network]95%
+[ Sun Nov 20 14:14:20 2022 ] 	Accuracy: 0.6925287356321839,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:14:20 2022 ] 	Mean test loss of 174 batches: 1.4640125207517338.
+[ Sun Nov 20 14:14:20 2022 ] 	Top1: 69.25%
+[ Sun Nov 20 14:14:20 2022 ] 	Top5: 97.99%
+[ Sun Nov 20 14:14:20 2022 ] 	
+[ Sun Nov 20 14:14:20 2022 ] Training epoch: 4
+[ Sun Nov 20 14:15:09 2022 ] 	Mean training loss: 1.8083.
+[ Sun Nov 20 14:15:09 2022 ] 	Time consumption: [Data]05%, [Network]95%
+[ Sun Nov 20 14:15:14 2022 ] 	Accuracy: 0.6752873563218391,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:15:14 2022 ] 	Mean test loss of 174 batches: 1.7684676366290828.
+[ Sun Nov 20 14:15:14 2022 ] 	Top1: 67.53%
+[ Sun Nov 20 14:15:14 2022 ] 	Top5: 97.99%
+[ Sun Nov 20 14:15:14 2022 ] 	
+[ Sun Nov 20 14:15:14 2022 ] Training epoch: 5
+[ Sun Nov 20 14:16:08 2022 ] 	Mean training loss: 1.7343.
+[ Sun Nov 20 14:16:08 2022 ] 	Time consumption: [Data]05%, [Network]95%
+[ Sun Nov 20 14:16:13 2022 ] 	Accuracy: 0.7241379310344828,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:16:13 2022 ] 	Mean test loss of 174 batches: 1.4783411142469822.
+[ Sun Nov 20 14:16:13 2022 ] 	Top1: 72.41%
+[ Sun Nov 20 14:16:13 2022 ] 	Top5: 97.99%
+[ Sun Nov 20 14:16:13 2022 ] 	
+[ Sun Nov 20 14:16:13 2022 ] Training epoch: 6
+[ Sun Nov 20 14:17:06 2022 ] 	Mean training loss: 1.7211.
+[ Sun Nov 20 14:17:06 2022 ] 	Time consumption: [Data]05%, [Network]95%
+[ Sun Nov 20 14:17:11 2022 ] 	Accuracy: 0.7241379310344828,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:17:11 2022 ] 	Mean test loss of 174 batches: 1.4578597107152829.
+[ Sun Nov 20 14:17:11 2022 ] 	Top1: 72.41%
+[ Sun Nov 20 14:17:11 2022 ] 	Top5: 97.99%
+[ Sun Nov 20 14:17:11 2022 ] 	
+[ Sun Nov 20 14:17:11 2022 ] Training epoch: 7
+[ Sun Nov 20 14:18:04 2022 ] 	Mean training loss: 1.7227.
+[ Sun Nov 20 14:18:04 2022 ] 	Time consumption: [Data]05%, [Network]95%
+[ Sun Nov 20 14:18:10 2022 ] 	Accuracy: 0.7241379310344828,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:18:10 2022 ] 	Mean test loss of 174 batches: 1.441494960209419.
+[ Sun Nov 20 14:18:10 2022 ] 	Top1: 72.41%
+[ Sun Nov 20 14:18:10 2022 ] 	Top5: 97.99%
+[ Sun Nov 20 14:18:10 2022 ] 	
+[ Sun Nov 20 14:18:10 2022 ] Training epoch: 8
+[ Sun Nov 20 14:19:03 2022 ] 	Mean training loss: 1.7225.
+[ Sun Nov 20 14:19:03 2022 ] 	Time consumption: [Data]05%, [Network]95%
+[ Sun Nov 20 14:19:08 2022 ] 	Accuracy: 0.7758620689655172,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:19:08 2022 ] 	Mean test loss of 174 batches: 1.413339736817897.
+[ Sun Nov 20 14:19:08 2022 ] 	Top1: 77.59%
+[ Sun Nov 20 14:19:09 2022 ] 	Top5: 97.99%
+[ Sun Nov 20 14:19:09 2022 ] 	
+[ Sun Nov 20 14:19:09 2022 ] Training epoch: 9
+[ Sun Nov 20 14:20:01 2022 ] 	Mean training loss: 1.7140.
+[ Sun Nov 20 14:20:01 2022 ] 	Time consumption: [Data]05%, [Network]95%
+[ Sun Nov 20 14:20:08 2022 ] 	Accuracy: 0.7758620689655172,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:20:08 2022 ] 	Mean test loss of 174 batches: 1.4317674712203015.
+[ Sun Nov 20 14:20:08 2022 ] 	Top1: 77.59%
+[ Sun Nov 20 14:20:08 2022 ] 	Top5: 97.99%
+[ Sun Nov 20 14:20:08 2022 ] 	
+[ Sun Nov 20 14:20:08 2022 ] Training epoch: 10
+[ Sun Nov 20 14:21:03 2022 ] 	Mean training loss: 1.7129.
+[ Sun Nov 20 14:21:03 2022 ] 	Time consumption: [Data]05%, [Network]95%
+[ Sun Nov 20 14:21:08 2022 ] 	Accuracy: 0.764367816091954,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:21:08 2022 ] 	Mean test loss of 174 batches: 1.4418823629960247.
+[ Sun Nov 20 14:21:08 2022 ] 	Top1: 76.44%
+[ Sun Nov 20 14:21:08 2022 ] 	Top5: 98.56%
+[ Sun Nov 20 14:21:08 2022 ] 	
+[ Sun Nov 20 14:21:08 2022 ] Training epoch: 11
+[ Sun Nov 20 14:22:04 2022 ] 	Mean training loss: 1.7123.
+[ Sun Nov 20 14:22:04 2022 ] 	Time consumption: [Data]04%, [Network]95%
+[ Sun Nov 20 14:22:10 2022 ] 	Accuracy: 0.8103448275862069,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:22:10 2022 ] 	Mean test loss of 174 batches: 1.4404032545528194.
+[ Sun Nov 20 14:22:10 2022 ] 	Top1: 81.03%
+[ Sun Nov 20 14:22:10 2022 ] 	Top5: 98.56%
+[ Sun Nov 20 14:22:10 2022 ] 	
+[ Sun Nov 20 14:22:10 2022 ] Training epoch: 12
+[ Sun Nov 20 14:23:06 2022 ] 	Mean training loss: 1.7120.
+[ Sun Nov 20 14:23:06 2022 ] 	Time consumption: [Data]04%, [Network]95%
+[ Sun Nov 20 14:23:12 2022 ] 	Accuracy: 0.8103448275862069,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:23:12 2022 ] 	Mean test loss of 174 batches: 1.4419399910959705.
+[ Sun Nov 20 14:23:12 2022 ] 	Top1: 81.03%
+[ Sun Nov 20 14:23:12 2022 ] 	Top5: 98.56%
+[ Sun Nov 20 14:23:12 2022 ] 	
+[ Sun Nov 20 14:23:12 2022 ] Training epoch: 13
+[ Sun Nov 20 14:24:16 2022 ] 	Mean training loss: 1.7110.
+[ Sun Nov 20 14:24:16 2022 ] 	Time consumption: [Data]04%, [Network]95%
+[ Sun Nov 20 14:24:23 2022 ] 	Accuracy: 0.8103448275862069,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:24:23 2022 ] 	Mean test loss of 174 batches: 1.4424919938219005.
+[ Sun Nov 20 14:24:23 2022 ] 	Top1: 81.03%
+[ Sun Nov 20 14:24:23 2022 ] 	Top5: 98.56%
+[ Sun Nov 20 14:24:23 2022 ] 	
+[ Sun Nov 20 14:24:23 2022 ] Training epoch: 14
+[ Sun Nov 20 14:25:23 2022 ] 	Mean training loss: 1.7108.
+[ Sun Nov 20 14:25:23 2022 ] 	Time consumption: [Data]04%, [Network]95%
+[ Sun Nov 20 14:25:29 2022 ] 	Accuracy: 0.8045977011494253,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:25:29 2022 ] 	Mean test loss of 174 batches: 1.4432734888175438.
+[ Sun Nov 20 14:25:29 2022 ] 	Top1: 80.46%
+[ Sun Nov 20 14:25:29 2022 ] 	Top5: 98.56%
+[ Sun Nov 20 14:25:29 2022 ] 	
+[ Sun Nov 20 14:25:29 2022 ] Training epoch: 15
+[ Sun Nov 20 14:26:28 2022 ] 	Mean training loss: 1.7110.
+[ Sun Nov 20 14:26:28 2022 ] 	Time consumption: [Data]05%, [Network]95%
+[ Sun Nov 20 14:26:34 2022 ] 	Accuracy: 0.8103448275862069,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:26:34 2022 ] 	Mean test loss of 174 batches: 1.4426649610201518.
+[ Sun Nov 20 14:26:34 2022 ] 	Top1: 81.03%
+[ Sun Nov 20 14:26:34 2022 ] 	Top5: 98.56%
+[ Sun Nov 20 14:26:34 2022 ] 	
+[ Sun Nov 20 14:26:34 2022 ] Training epoch: 16
+[ Sun Nov 20 14:27:40 2022 ] 	Mean training loss: 1.7110.
+[ Sun Nov 20 14:27:40 2022 ] 	Time consumption: [Data]04%, [Network]95%
+[ Sun Nov 20 14:27:46 2022 ] 	Accuracy: 0.8362068965517241,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:27:46 2022 ] 	Mean test loss of 174 batches: 1.444532411536951.
+[ Sun Nov 20 14:27:46 2022 ] 	Top1: 83.62%
+[ Sun Nov 20 14:27:46 2022 ] 	Top5: 98.56%
+[ Sun Nov 20 14:27:46 2022 ] 	
+[ Sun Nov 20 14:27:46 2022 ] Training epoch: 17
+[ Sun Nov 20 14:28:49 2022 ] 	Mean training loss: 1.7110.
+[ Sun Nov 20 14:28:49 2022 ] 	Time consumption: [Data]05%, [Network]95%
+[ Sun Nov 20 14:28:56 2022 ] 	Accuracy: 0.8362068965517241,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:28:56 2022 ] 	Mean test loss of 174 batches: 1.444245043157161.
+[ Sun Nov 20 14:28:56 2022 ] 	Top1: 83.62%
+[ Sun Nov 20 14:28:56 2022 ] 	Top5: 98.56%
+[ Sun Nov 20 14:28:56 2022 ] 	
+[ Sun Nov 20 14:28:56 2022 ] Training epoch: 18
+[ Sun Nov 20 14:29:59 2022 ] 	Mean training loss: 1.7109.
+[ Sun Nov 20 14:29:59 2022 ] 	Time consumption: [Data]05%, [Network]95%
+[ Sun Nov 20 14:30:06 2022 ] 	Accuracy: 0.8419540229885057,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:30:06 2022 ] 	Mean test loss of 174 batches: 1.4443963786651348.
+[ Sun Nov 20 14:30:06 2022 ] 	Top1: 84.20%
+[ Sun Nov 20 14:30:06 2022 ] 	Top5: 98.56%
+[ Sun Nov 20 14:30:06 2022 ] 	
+[ Sun Nov 20 14:30:06 2022 ] Training epoch: 19
+[ Sun Nov 20 14:31:12 2022 ] 	Mean training loss: 1.7107.
+[ Sun Nov 20 14:31:12 2022 ] 	Time consumption: [Data]08%, [Network]91%
+[ Sun Nov 20 14:31:19 2022 ] 	Accuracy: 0.8362068965517241,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:31:19 2022 ] 	Mean test loss of 174 batches: 1.4443366041128662.
+[ Sun Nov 20 14:31:19 2022 ] 	Top1: 83.62%
+[ Sun Nov 20 14:31:19 2022 ] 	Top5: 98.56%
+[ Sun Nov 20 14:31:19 2022 ] 	
+[ Sun Nov 20 14:31:19 2022 ] Training epoch: 20
+[ Sun Nov 20 14:32:23 2022 ] 	Mean training loss: 1.7107.
+[ Sun Nov 20 14:32:23 2022 ] 	Time consumption: [Data]04%, [Network]95%
+[ Sun Nov 20 14:32:29 2022 ] 	Accuracy: 0.8448275862068966,  model: ./runs/ca_agcn_bone2
+[ Sun Nov 20 14:32:29 2022 ] 	Mean test loss of 174 batches: 1.4494686510371066.
+[ Sun Nov 20 14:32:29 2022 ] 	Top1: 84.48%
+[ Sun Nov 20 14:32:29 2022 ] 	Top5: 98.56%
+[ Sun Nov 20 14:32:29 2022 ] 	

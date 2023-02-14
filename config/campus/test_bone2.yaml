@@ -1,0 +1,27 @@
+# feeder
+feeder: feeders.feeder.Feeder
+test_feeder_args:
+  data_path: ./data/campus/val_data_bone2.npy
+  label_path: ./data/campus/val_label2.pkl
+  debug: False
+
+# model
+model: model.aagcn.Model
+model_args:
+  num_class: 8
+  num_point: 17
+  num_person: 4
+  graph: graph.campus.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+
+
+# test 
+phase: test
+device: 'cpu'
+test_batch_size: 2
+weights: ./runs/ca_agcn_bone2-19-17320.pt  # TODO
+
+work_dir: ./work_dir/campus/agcn_test_bone2
+model_saved_name: ./runs/ca_agcn_test_bone2
+save_score: True

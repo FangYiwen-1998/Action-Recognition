@@ -1,0 +1,74 @@
+[ Sun Oct  2 23:26:14 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Oct  2 23:26:15 2022 ] using warm up, epoch: 0
+[ Sat Oct 29 16:31:56 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sat Oct 29 16:31:56 2022 ] using warm up, epoch: 0
+[ Tue Nov  1 23:50:48 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Tue Nov  1 23:50:48 2022 ] using warm up, epoch: 0
+[ Wed Nov  2 21:44:33 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Wed Nov  2 21:44:33 2022 ] using warm up, epoch: 0
+[ Wed Nov  2 22:03:20 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Wed Nov  2 22:03:20 2022 ] using warm up, epoch: 0
+[ Thu Nov  3 19:41:49 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Thu Nov  3 19:41:49 2022 ] using warm up, epoch: 0
+[ Thu Nov  3 19:49:29 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Thu Nov  3 19:49:29 2022 ] using warm up, epoch: 0
+[ Thu Nov  3 19:57:45 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Thu Nov  3 20:08:16 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Thu Nov  3 23:06:19 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Thu Nov  3 23:06:19 2022 ] using warm up, epoch: 0
+[ Sat Nov  5 21:57:12 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sat Nov  5 21:57:12 2022 ] using warm up, epoch: 0
+[ Sat Nov  5 22:03:41 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sat Nov  5 22:03:41 2022 ] using warm up, epoch: 0
+[ Sun Nov  6 19:24:28 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov  6 19:24:29 2022 ] using warm up, epoch: 0
+[ Sun Nov  6 19:47:18 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov  6 19:47:19 2022 ] using warm up, epoch: 0
+[ Sun Nov  6 19:49:48 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov  6 19:49:48 2022 ] using warm up, epoch: 0
+[ Sun Nov  6 19:52:59 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov  6 19:52:59 2022 ] using warm up, epoch: 0
+[ Sun Nov  6 19:54:39 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov  6 19:54:39 2022 ] using warm up, epoch: 0
+[ Sun Nov  6 19:56:16 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov  6 19:56:16 2022 ] using warm up, epoch: 0
+[ Mon Nov  7 12:27:47 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Mon Nov  7 12:27:47 2022 ] using warm up, epoch: 0
+[ Mon Nov  7 12:50:07 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Mon Nov  7 12:50:07 2022 ] using warm up, epoch: 0
+[ Mon Nov  7 15:21:38 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Mon Nov  7 15:21:38 2022 ] using warm up, epoch: 0
+[ Mon Nov  7 21:51:38 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Mon Nov  7 21:51:38 2022 ] using warm up, epoch: 0
+[ Tue Nov  8 15:41:30 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Tue Nov  8 15:41:30 2022 ] using warm up, epoch: 0
+[ Tue Nov  8 15:42:51 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Tue Nov  8 15:42:51 2022 ] using warm up, epoch: 0
+[ Tue Nov  8 15:44:10 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Tue Nov  8 15:44:10 2022 ] using warm up, epoch: 0
+[ Tue Nov  8 15:46:51 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Tue Nov  8 15:46:51 2022 ] using warm up, epoch: 0
+[ Fri Nov 18 18:12:53 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Fri Nov 18 18:12:54 2022 ] using warm up, epoch: 0
+[ Sat Nov 19 14:34:19 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sat Nov 19 14:34:20 2022 ] using warm up, epoch: 0
+[ Sun Nov 20 20:29:41 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov 20 20:29:42 2022 ] using warm up, epoch: 0
+[ Sun Nov 20 20:30:20 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov 20 20:30:20 2022 ] using warm up, epoch: 0
+[ Sun Nov 20 20:31:56 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov 20 20:31:56 2022 ] using warm up, epoch: 0
+[ Sun Nov 20 20:33:28 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov 20 20:33:29 2022 ] using warm up, epoch: 0
+[ Sun Nov 20 20:34:30 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov 20 20:34:30 2022 ] using warm up, epoch: 0
+[ Sun Nov 20 20:35:31 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov 20 20:35:31 2022 ] using warm up, epoch: 0
+[ Sun Nov 20 20:35:51 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov 20 20:35:52 2022 ] using warm up, epoch: 0
+[ Sun Nov 20 20:36:11 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov 20 20:36:11 2022 ] using warm up, epoch: 0
+[ Sun Nov 20 20:36:24 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov 20 20:36:24 2022 ] using warm up, epoch: 0
+[ Sun Nov 20 20:37:37 2022 ] Load weights from ./runs/ca_agcn_joint-9-1500.pt.
+[ Sun Nov 20 20:37:37 2022 ] using warm up, epoch: 0
